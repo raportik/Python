@@ -7,6 +7,7 @@ WORKDIR /app
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+       git \
        libjpeg62-turbo \
        libpng16-16 \
     && rm -rf /var/lib/apt/lists/*
