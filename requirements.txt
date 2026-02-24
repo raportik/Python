@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pillow
+python-multipart
+torch
+timm
+numpy
+git+https://github.com/huggingface/transformers.git
